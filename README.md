@@ -1,11 +1,12 @@
 SEPT 21 
 ```python
 ----- DIRECTORY STRUCTURE -----
+├── content.md
 ├── gen_.py
 ├── README.md
-└── Sept_29
-    ├── content.md
-    └── Sept_29
-        ├── a.md
-        └── Sept29_1216.jsx
+├── Try_1
+│   ├── Seept29_Notes.md
+│   └── Sept29_1216.jsx
+└── Try_2
+    └── image.png
 ```
