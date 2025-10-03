@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Aryam/Desktop/react_next_redux/pizza-menu/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
