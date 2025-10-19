@@ -1,10 +1,9 @@
-
 import os
 import subprocess
 from datetime import datetime
 now = datetime.now()
 form="%B %d, %Y - [%#I:%M%p]"
-f=now.strftime(form)
+f_time=now.strftime(form)
 def get_custom_timestamp():
     now=datetime.now()
     hour=now.strftime('%I').lstrip('0')  
@@ -57,7 +56,7 @@ def generate_tree(start_path, indent=""):
 if __name__=="__main__":
     tree_structure=generate_tree('.')
     with open('README.md', 'w', encoding='utf-8') as f:
-         f.write(f"Logged - ${f} \n")
+         f.write(f"Logged - {f_time} \n")
          f.write("```python\n")
          f.write("----- DIRECTORY STRUCTURE -----\n" + tree_structure)
          f.write("```\n")
