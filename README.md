@@ -1,45 +1,30 @@
-Logged - October 19, 2025 - [7:35AM] 
+Logged - October 19, 2025 - [7:49AM] 
 ```python
 ----- DIRECTORY STRUCTURE -----
+├── 01_Pizza
+│   ├── pizza-menu
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   ├── index.html
+│   │   │   └── pizzas
+│   │   │       ├── focaccia.jpg
+│   │   │       ├── funghi.jpg
+│   │   │       ├── margherita.jpg
+│   │   │       ├── prosciutto.jpg
+│   │   │       ├── salamino.jpg
+│   │   │       └── spinaci.jpg
+│   │   ├── README.md
+│   │   └── src
+│   │       ├── data
+│   │       │   └── data.js
+│   │       ├── index.css
+│   │       └── index.js
+│   └── pizzaMenu.png
+├── 02_StateEventsForms
 ├── content.md
 ├── gen_.py
-├── photos
-│   ├── pizzaMenu.png
-│   └── Sept29_1216.jsx
-├── pizza-menu
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public
-│   │   ├── index.html
-│   │   └── pizzas
-│   │       ├── focaccia.jpg
-│   │       ├── funghi.jpg
-│   │       ├── margherita.jpg
-│   │       ├── prosciutto.jpg
-│   │       ├── salamino.jpg
-│   │       └── spinaci.jpg
-│   ├── README.md
-│   └── src
-│       ├── data
-│       │   └── data.js
-│       ├── index.css
-│       └── index.js
 ├── README.md
-└── steps
-    ├── .claude
-    │   └── settings.local.json
-    ├── package-lock.json
-    ├── package.json
-    ├── public
-    │   ├── favicon.ico
-    │   ├── index.html
-    │   ├── logo192.png
-    │   ├── logo512.png
-    │   ├── manifest.json
-    │   └── robots.txt
-    ├── README.md
-    └── src
-        ├── App.js
-        ├── index.css
-        └── index.js
+└── TrialCodes
+    └── trial1.jsx
 ```
